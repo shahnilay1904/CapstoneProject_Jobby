@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TinderSwipe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_recruiter">RecruiterActivity</string>
+    <string name="title_activity_recruiter_full_profile">RecruiterFullProfile</string>
+    <string name="title_activity_seeker_full_profile">SeekerFullProfile</string>
+    <string name="title_activity_recruiter_fullprofile_for_seeker">RecruiterFullprofileForSeeker
+    </string>
+    <string name="title_activity_seeker_full_profile_for_recruiter">SeekerFullProfileForRecruiter
+    </string>
+    <string name="title_activity_data_sfp">DataSFP</string>
+    <string name="title_activity_chat_activity_main">ChatActivityMain</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">842238692523479</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="send">Send</string>
+    <string name="title_activity_chat_list_view_page">ChatListViewPage</string>
+    <string-array name="chatters_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>

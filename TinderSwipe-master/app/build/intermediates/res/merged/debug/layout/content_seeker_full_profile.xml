@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nkdroid.tinderswipe.SeekerFullProfile"
+    tools:showIn="@layout/activity_seeker_full_profile">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sscroll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:id="@+id/snamelinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rimgsnamerel"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+
+                android:gravity="center_horizontal|center"
+                android:background="@drawable/fullprofilebackgrndimg">
+                <ImageView
+
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/doordash123"
+                    android:id="@+id/imageView"
+                    android:layout_below="@+id/rnamelinear"
+                    android:layout_centerHorizontal="true" />
+                <LinearLayout
+                    android:id="@+id/rnamelinear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical"
+
+                    android:weightSum="1">
+
+
+                    <!--<TextView
+                        android:id="@+id/ageSeeker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=", "
+                        android:textColor="#FFF"
+                        android:layout_weight="0.5"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />-->
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/splace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Palo Alto, California"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:singleLine="true"
+                    android:layout_below="@+id/imageView"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="25dp"
+                    android:textSize="20dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginEnd="42dp" />
+
+                <TextView
+                    android:id="@+id/sname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doordash"
+                    android:textColor="#FFF"
+                    android:layout_weight="0.5"
+                    android:textSize="25dp"
+                    android:layout_below="@+id/imageView"
+                    android:layout_toRightOf="@+id/rnamelinear"
+                    android:layout_toEndOf="@+id/rnamelinear"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginStart="42dp" />
+
+                <TextView
+                android:id="@+id/sage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=", 24"
+                    android:textSize="22dp"
+                    android:gravity="center_horizontal|center"
+                android:textColor="#FFF"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_below="@+id/imageView"
+                    android:layout_toRightOf="@+id/sname"
+                    android:layout_alignBottom="@+id/sname" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sbiofield"
+                android:layout_marginRight="5dp"
+
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Short Bio:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sbio"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="I am a young professional seeking opportunities in Data Analytics!"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/scurrentfield"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Currently I am:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/scurrent"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A Graduate student at Santa Clara University majoring in Information Systems."
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sworkexfield"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Work Experience:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sworkex"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Project Administration Intern at Ericsson"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sworkexcontinue"
+                android:layout_marginRight="5dp"
+
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aug 2015-Dec 2015: 4 months"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sworkexmore"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:text="Click for more..."
+                android:textSize="8dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/seducationfield"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Education:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/seducation"
+                android:layout_marginRight="5dp"
+
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Masters of Science in Information Systems \nSanta Clara University"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/seducationcontinue"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2012-2014: 2 years"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/seducationmore"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Click for more..."
+                android:textSize="8dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/srolesfield"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Roles interested in:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/srole1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Data Analyst"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/srole2"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Python Developer"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sgoalfield"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My goals:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sgoal"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="XYZ"
+                android:textSize="15dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/sskillfield"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Skill Set:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <HorizontalScrollView
+                android:id="@+id/sskillhorz"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal">
+                <LinearLayout
+                    android:id="@+id/sskilllinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FFFFFF"
+                    android:weightSum="100">
+                    <TextView
+                        android:id="@+id/sskill1"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Java"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill2"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Python"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill3"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="MySQL"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill4"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Spark"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill5"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Android"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill6"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Firebase"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill7"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="MS Excel"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill8"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Tableau"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill9"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="XML"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sskill10"
+                        android:layout_weight="10"
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="UML"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/spowerfield"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3 Super Powers:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <LinearLayout
+                android:id="@+id/spowerlinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/spower1"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="I'm always deligent and meticulous"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/spower2"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="I analyze qualitative info in a flash"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/spower3"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="I adapt quickly to change"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sdescribefield"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="5 Words that describe me:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <HorizontalScrollView
+                android:id="@+id/swordshorz"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp">
+                <LinearLayout
+                    android:id="@+id/lin06"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <TextView
+                        android:id="@+id/sdescribe1"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Adventurous"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sdescribe2"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Affectionate"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sdescribe3"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Athletic"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sdescribe4"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Broad-minded"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:id="@+id/sdescribe5"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Calm"
+                        android:textSize="15dp"
+                        android:background="#FFFFFF"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:id="@+id/sworkplacefield"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ideal Workplace:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <LinearLayout
+                android:id="@+id/sworkplacelinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/sworkplace1"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Encourages employees to speak up!"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/sworkplace2"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Is very design centric"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/sworkplace3"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Builds a popular customer product"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/spsallinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/spsalfield"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Previous/Last Salary:"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/spsal"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$76000"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/sesallinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/sesalfield"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Expected Salary:"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:id="@+id/sesal"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="$95000"
+                    android:textSize="20dp"
+                    android:background="#FFFFFF"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/slangfield"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Languages I am fluent in:"
+                android:textSize="20dp"
+                android:background="#FFFFFF"/>
+            <LinearLayout
+                android:id="@+id/slanglinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/slang1"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="English"
+                    android:textSize="15dp"
+                    android:background="#FFFFFF"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/slang2"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Hindi"
+                    android:textSize="15dp"
+                    android:background="#FFFFFF"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/slang3"
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Gujarati"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:background="#FFFFFF"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

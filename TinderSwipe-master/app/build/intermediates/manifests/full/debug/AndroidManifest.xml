@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nkdroid.tinderswipe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nkdroid.tinderswipe.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nkdroid.tinderswipe.SeekerActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.RecruiterActivity"
+            android:label="@string/title_activity_recruiter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.RecruiterFullProfile"
+            android:label="@string/title_activity_recruiter_full_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.SeekerFullProfile"
+            android:label="@string/title_activity_seeker_full_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.RecruiterFullprofileForSeeker"
+            android:label="@string/title_activity_recruiter_fullprofile_for_seeker"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.SeekerFullProfileForRecruiter"
+            android:label="@string/title_activity_seeker_full_profile_for_recruiter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.nkdroid.tinderswipe.ChatActivityMain"
+            android:label="@string/title_activity_chat_activity_main"
+            android:theme="@style/AppTheme" />
+        <!-- <activity -->
+        <!-- android:name=".Message" -->
+        <!-- android:theme="@style/AppTheme"/> -->
+
+        <activity
+            android:name="com.nkdroid.tinderswipe.ChatListViewPage"
+            android:label="@string/title_activity_chat_list_view_page"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

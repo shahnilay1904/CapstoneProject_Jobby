@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:10:5-63:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.nkdroid.tinderswipe.SplashActivity
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:17:13-58
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:16:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.nkdroid.tinderswipe.SeekerActivity
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:24:9-26:59
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:25:13-43
+activity#com.nkdroid.tinderswipe.LoginActivity
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:27:9-30:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:29:13-57
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:28:13-42
+activity#com.nkdroid.tinderswipe.RecruiterActivity
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:31:9-34:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:33:13-61
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:32:13-46
+activity#com.nkdroid.tinderswipe.RecruiterFullProfile
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:35:9-38:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:37:13-74
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:36:13-49
+activity#com.nkdroid.tinderswipe.SeekerFullProfile
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:39:9-42:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:41:13-71
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:40:13-46
+activity#com.nkdroid.tinderswipe.RecruiterFullprofileForSeeker
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:43:9-46:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:45:13-84
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:44:13-58
+activity#com.nkdroid.tinderswipe.SeekerFullProfileForRecruiter
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:47:9-50:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:49:13-85
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:50:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:48:13-58
+activity#com.nkdroid.tinderswipe.ChatActivityMain
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:51:9-54:47
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:53:13-70
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:52:13-45
+activity#com.nkdroid.tinderswipe.ChatListViewPage
+ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:59:9-62:56
+	android:label
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:61:13-71
+	android:theme
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml:60:13-45
+uses-sdk
+INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/nilayshah/Desktop/TinderSwipe-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nilayshah/Desktop/TinderSwipe-master/app/src/main/AndroidManifest.xml
